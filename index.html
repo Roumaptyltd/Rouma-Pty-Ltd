@@ -6,10 +6,75 @@
   <title>Rouma Pty Ltd</title>
   <link rel="stylesheet" href="style.css">
   <meta name="description" content="Rouma Pty Ltd - Financial skills and research.">
+  <style>
+    /* Inline CSS for demo, move to style.css later */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+
+    header {
+      background: #002244;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav span {
+      margin: 0 10px;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url("images/wqEhuNX6JUf3mgH7U7b5k.jpg") no-repeat center center;
+      background-size: cover;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #ffcc00;
+      color: #002244;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    footer {
+      background: #002244;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to Rouma Pty Ltd</h1>
+    <h1>Rouma Pty Ltd</h1>
     <nav>
       <span class="active">Home</span>
       <span>About</span>
@@ -17,18 +82,11 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section>
+  <!-- Hero Section with Background Image -->
+  <section class="hero">
     <h2>Building Financial Futures</h2>
     <p>Rouma Pty Ltd is dedicated to empowering individuals and businesses with financial skills and research insights.</p>
-    <p><a href="contact.html" class="button">Contact Us</a></p>
-  </section>
-
-  <!-- Picture Section -->
-  <section>
-    <h2>Our Vision</h2>
-    <img src="images/financial-growth.jpg" alt="Financial growth illustration" style="max-width:100%; height:auto;">
-    <p>We believe in creating sustainable financial futures through innovation, research, and collaboration.</p>
+    <a href="contact.html" class="button">Contact Us</a>
   </section>
 
   <!-- About the Company Section -->
@@ -36,14 +94,12 @@
     <h2>About Rouma Pty Ltd</h2>
     <p>Founded in South Africa, Rouma Pty Ltd specializes in financial education, skills development, and applied research. 
        Our mission is to equip individuals and organizations with the tools they need to thrive in a rapidly changing economy.</p>
-    <p>We focus on:</p>
     <ul>
       <li>Delivering practical financial training programs</li>
       <li>Conducting research to support informed decision-making</li>
       <li>Partnering with businesses to build sustainable strategies</li>
       <li>Empowering communities through knowledge-sharing</li>
     </ul>
-    <p>Our team is committed to integrity, innovation, and collaboration — values that guide every project we undertake.</p>
   </section>
 
   <footer>
