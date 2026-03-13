@@ -1,11 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact - Rouma Pty Ltd</title>
   <link rel="stylesheet" href="style.css" />
   <meta name="description" content="Get in touch with Rouma Pty Ltd, your partner in financial skills and research.">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+
+    header {
+      background: #002244;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav span {
+      margin: 0 10px;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url("images/wqEhuNX6JUf3mgH7U7b5k.jpg") no-repeat center center;
+      background-size: cover;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px;
+      background: #ffcc00;
+      color: #002244;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #002244;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -17,29 +100,24 @@
     </nav>
   </header>
 
-  <section>
+  <!-- Hero Section with Background Image -->
+  <section class="hero">
     <h2>We’d Love to Hear From You</h2>
     <p>At Rouma Pty Ltd, we believe strong connections lead to stronger financial futures. Whether you have questions, ideas, or want to explore how we can partner together, we’re here to listen and support you.</p>
   </section>
 
-  <section>
-    <h2>Contact Details</h2>
-    <p><strong>Email:</strong> (hidden for security — please use the form below)</p>
-    <p><strong>Phone:</strong> +27 21 123 4567</p>
-    <p><strong>Address:</strong> Cape Town, South Africa</p>
-  </section>
-
+  <!-- Contact Form -->
   <section>
     <h2>Send Us a Message</h2>
     <form action="https://formspree.io/f/yourFormID" method="POST">
-      <label for="name">Your Name:</label><br />
-      <input type="text" id="name" name="name" required /><br /><br />
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
 
-      <label for="email">Your Email:</label><br />
-      <input type="email" id="email" name="email" required /><br /><br />
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
 
-      <label for="message">Message:</label><br />
-      <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
 
       <button type="submit">Send</button>
     </form>
