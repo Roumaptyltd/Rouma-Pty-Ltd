@@ -96,3 +96,33 @@ footer {
   padding: 20px;
   border-radius: 8px;
 }
+
+/* Footer styles */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}.hero {
+  background-image: url("wqEhuNX6JUf3mgH7U7b5k.png"); /* use the exact file name */
+  background-size: cover;       /* makes the image fill the section */
+  background-position: center;  /* keeps the focus centered */
+  background-repeat: no-repeat; /* prevents tiling */
+  height: 100vh;                /* full screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.hero {
+  background: url("wqEhuNX6JUf3mgH7U7b5k.jpg") no-repeat center center;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
